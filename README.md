@@ -20,4 +20,5 @@ Au premier démarrage :
 - Cliquez sur "Valider"
 ## Pour ouvrir le projet
 - Sur votre IDE de choix, ouvrez le dossier `compteur_argent` de la racine du dépôt en tant que dossier
-- je sais pas trop comment ça va marcher mais github a fusionné les sous-dossiers vides en un seul (`src/main/java/compeur_argent`) il faudra peut-être séparer ce dossier en plusieurs sous-dossiers
+- Modifiez la valeur de `NIVEAU_DOSSIER` dans `Main.java` pour pouvoir tester directement dans votre IDE (la valeur actuelle est adaptée pour le `.jar`)
+- Je sais pas trop comment ça va marcher mais github a fusionné les sous-dossiers vides en un seul (`src/main/java/compeur_argent`) il faudra peut-être séparer ce dossier en plusieurs sous-dossiers
