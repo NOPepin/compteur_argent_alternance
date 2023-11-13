@@ -1,6 +1,6 @@
 # Compteur D'argent
 Application java permettant de compter l'argent obtenu en alternance
----
+
 ## Rappel pour démarrer le fichier .jar
 ### Windows
 - Extraire le contenu du .zip de la Release dans le dossier de votre choix
