@@ -18,3 +18,6 @@ Application java permettant de compter l'argent obtenu en alternance
 Au premier démarrage : 
 - Renseignez votre pourcentage du SMIC ainsi que votre nombre d'heures par semaine (présent sur votre contrat d'apprentissage)
 - Cliquez sur "Valider"
+## Pour ouvrir le projet
+- Sur votre IDE de choix, ouvrez le dossier `compteur_argent` de la racine du dépôt en tant que dossier
+- je sais pas trop comment ça va marcher mais github a fusionné les sous-dossiers vides en un seul (`src/main/java/compeur_argent`) il faudra peut-être séparer ce dossier en plusieurs sous-dossiers
