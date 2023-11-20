@@ -121,10 +121,20 @@ public class PanelHeure extends JPanel
 				{
 					yfin = (int)(this.getHeight()*((double)(cours.getMinuteFin())/60));
 				}
-				g.fillRect(0, yDebut, this.getWidth(), yfin);
+
+				Stroke dashed = new BasicStroke(1, BasicStroke.CAP_BUTT, BasicStroke.JOIN_BEVEL, 0, new float[]{9}, 0);
+				g.setStroke(dashed);
+				g.setColor(Color.BLACK);
+				g.drawLine(0, yDebut-1, this.getWidth(), yDebut-1);
+
+				g.setColor(couleurFond);
+				g.fillRect(0, yDebut, this.getWidth(), yfin-yDebut);
+
 				g.setColor(Color.BLACK);
 				g.drawString(intitule, 0, yDebut+g.getFont().getSize());
 				g.drawString(valeur, this.getWidth()-valeur.length()*g.getFont().getSize()/2, yfin-2);
+				
+				g.drawLine(0, yfin, this.getWidth(), yfin);
 			}
 			else if(modeDessinDebut)
 			{
